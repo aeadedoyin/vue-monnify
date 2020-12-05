@@ -1,6 +1,6 @@
 {
   "name": "vue-monnify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue 2 & 3 Component (Paybutton 💰) for Monnify",
   "keywords": [
     "vue",
@@ -14,12 +14,6 @@
     "vue 3"
   ],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "aeadedoyin",
-      "email": "aeadedoyin@gmail.com"
-    }
-  ],
   "main": "dist/vue-monnify.ssr.js",
   "browser": "dist/vue-monnify.esm.js",
   "module": "dist/vue-monnify.esm.js",
@@ -58,5 +52,17 @@
   },
   "engines": {
     "node": ">=10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeadedoyin/vue-monnify.git"
+  },
+  "author": {
+    "name": "aeadedoyin",
+    "email": "aeadedoyin@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aeadedoyin/vue-monnify/issues"
+  },
+  "homepage": "https://github.com/aeadedoyin/vue-monnify#readme"
 }

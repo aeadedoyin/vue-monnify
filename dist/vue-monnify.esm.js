@@ -4,8 +4,6 @@
 //
 //
 //
-//
-//
 var script = {
   name: "VueMonnify",
   // vue component name
@@ -238,12 +236,12 @@ var __vue_render__ = function () {
 
   var _c = _vm._self._c || _h;
 
-  return _c('div', [_c('button', {
+  return _c('button', {
     class: _vm.btnClass,
     on: {
       "click": _vm.payWithMonnify
     }
-  }, [_vm._t("default", [_vm._v("Make Payment")])], 2)]);
+  }, [_vm._t("default", [_vm._v("Make Payment")])], 2);
 };
 
 var __vue_staticRenderFns__ = [];

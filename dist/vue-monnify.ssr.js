@@ -4,8 +4,6 @@
 //
 //
 //
-//
-//
 var script = {
   name: "VueMonnify",
   // vue component name
@@ -225,7 +223,12 @@ var __vue_render__ = function __vue_render__() {
 
   var _c = _vm._self._c || _h;
 
-  return _c('div', [_vm._ssrNode("<button" + _vm._ssrClass(null, _vm.btnClass) + ">", "</button>", [_vm._t("default", [_vm._v("Make Payment")])], 2)]);
+  return _c('button', {
+    class: _vm.btnClass,
+    on: {
+      "click": _vm.payWithMonnify
+    }
+  }, [_vm._t("default", [_vm._v("Make Payment")])], 2);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -237,7 +240,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-7270a77e";
+var __vue_module_identifier__ = "data-v-1698c59e";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

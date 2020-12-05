@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <button :class="btnClass" @click="payWithMonnify">
+  <button :class="btnClass" @click="payWithMonnify">
       <slot>Make Payment</slot>
-    </button>
-  </div>
+  </button>
 </template>
 
 <script>
