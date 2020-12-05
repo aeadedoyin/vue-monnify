@@ -131,7 +131,7 @@ metadata: Object (optional) [{}]
 currency: String (optional) ['NGN']
 paymentDescription: String (optional) ['']
 paymentMethods: StringArray (optional) ['ACCOUNT_TRANSFER'] // possible values: ['CARD', 'ACCOUNT_TRANSFER']
-btnClass: String []
+btnClass: String (optional)['']
 
 i.e
 // prop: DataType (required or optional) [default value]
