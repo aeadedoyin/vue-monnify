@@ -1,0 +1,62 @@
+{
+  "name": "vue-monnify",
+  "version": "1.0.0",
+  "description": "Vue 2 & 3 Component (Paybutton 💰) for Monnify",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "github",
+    "nuxt",
+    "payments",
+    "monnify",
+    "monnify.com",
+    "vue 2",
+    "vue 3"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aeadedoyin",
+      "email": "aeadedoyin@gmail.com"
+    }
+  ],
+  "main": "dist/vue-monnify.ssr.js",
+  "browser": "dist/vue-monnify.esm.js",
+  "module": "dist/vue-monnify.esm.js",
+  "unpkg": "dist/vue-monnify.min.js",
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve dev/serve.js",
+    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@rollup/plugin-alias": "^2.2.0",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-replace": "^2.3.2",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "cross-env": "^7.0.2",
+    "minimist": "^1.2.5",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
