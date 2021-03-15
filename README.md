@@ -39,6 +39,7 @@ npm install vue-monnify --save
         :on-close="monnifyClose"
         :on-complete="monnifyComplete"
         :reference="payRef"
+        :payment-description="'Payment reference'"
     >
       <!-- This could be an html template -->
        Make Payment
