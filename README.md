@@ -5,7 +5,7 @@
 # Vue Component for Monnify
 
 A Vue Plugin (Pay Button 💰) for Monnify payment gateway.  
-It wraps the official [Monnify Web SDK](https://docs.teamapt.com/display/MON/Monnify+Web+SDK);  
+It wraps the official [Monnify Web SDK](https://teamapt.atlassian.net/wiki/spaces/MON/pages/212008793/Monnify+Web+SDK);  
 Making it pretty straightforward to add Monnify Pay Button to your vue-based application.  
 Available for Vue 2 & 3
 
